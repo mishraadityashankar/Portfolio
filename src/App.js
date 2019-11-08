@@ -20,21 +20,21 @@ function App() {
 		<aside id="colorlib-aside" role="complementary" class="border js-fullheight">
 			<div class="text-center">
 				<div class="author-img" style={{ backgroundImage: " url(images/about.jpg)"}}></div>
-				<h1 id="colorlib-logo"><a href="index.html">Jackson Ford</a></h1>
-				<span class="position"><a href="#">UI/UX/Designer</a> in Philippines</span>
+				<h2 id="colorlib-logo"><a href="index.html">Aditya Shankar Mishra</a></h2>
+				<span class="position"><a style ={{color:"black"}}href="#">Full Stack Developer</a></span>
 			</div>
 			<nav id="colorlib-main-menu" role="navigation" class="navbar">
 				<div id="navbar" class="collapse">
 					<ul>
-						<li class="active"><a href="#" data-nav-section="home">Home</a></li>
-						<li><a href="#" data-nav-section="about">About</a></li>
-						<li><a href="#" data-nav-section="services">Services</a></li>
-						<li><a href="#" data-nav-section="skills">Skills</a></li>
-						<li><a href="#" data-nav-section="education">Education</a></li>
-						<li><a href="#" data-nav-section="experience">Experience</a></li>
-						<li><a href="#" data-nav-section="work">Work</a></li>
-						<li><a href="#" data-nav-section="blog">Blog</a></li>
-						<li><a href="#" data-nav-section="contact">Contact</a></li>
+						<li class="active"><a href="#" data-nav-section="home" style ={{color:"black"}}>Home</a></li>
+						<li><a href="#" data-nav-section="about"style ={{color:"black"}}>About</a></li>
+						{/* <li><a href="#" data-nav-section="services">Services</a></li> */}
+						<li><a href="#" data-nav-section="skills"style ={{color:"black"}}>Skills</a></li>
+						<li><a href="#" data-nav-section="education"style ={{color:"black"}}>Education</a></li>
+						<li><a href="#" data-nav-section="experience"style ={{color:"black"}}>Experience</a></li>
+						{/* <li><a href="#" data-nav-section="work">Work</a></li>
+						<li><a href="#" data-nav-section="blog">Blog</a></li> */}
+						<li><a href="#" data-nav-section="contact"style ={{color:"black"}}>Contact</a></li>
 					</ul>
 				</div>
 			</nav>
@@ -42,12 +42,12 @@ function App() {
      <div id="colorlib-main">
        <Home></Home>
       <About></About>
-      <Services></Services>
+      {/* <Services></Services> */}
       <Skills></Skills>
       <Eductation></Eductation>
       <Experience></Experience>
-      <Work></Work>
-      <Blog></Blog>
+      {/* <Work></Work>
+      <Blog></Blog> */}
       <Contact></Contact>
      </div>
  

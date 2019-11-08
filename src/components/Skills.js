@@ -1,3 +1,4 @@
+
 import React, { Component } from 'react';
 
 class Skills extends Component {
@@ -14,11 +15,11 @@ class Skills extends Component {
 					</div>
 					<div class="row">
 						<div class="col-md-12 animate-box" data-animate-effect="fadeInLeft">
-							<p>The Big Oxmox advised her not to do so, because there were thousands of bad Commas, wild Question Marks and devious Semikoli, but the Little Blind Text didn’t listen. She packed her seven versalia, put her initial into the belt and made herself on the way.</p>
+							<p>On my way of acquiring new skills !!</p>
 						</div>
 						<div class="col-md-6 animate-box" data-animate-effect="fadeInLeft">
 							<div class="progress-wrap">
-								<h3>Photoshop</h3>
+								<h3>React JS</h3>
 								<div class="progress">
 								 	<div class="progress-bar color-1" role="progressbar" aria-valuenow="75"
 								  	aria-valuemin="0" aria-valuemax="100" style={{width:"75%"}}>
@@ -29,11 +30,11 @@ class Skills extends Component {
 						</div>
 						<div class="col-md-6 animate-box" data-animate-effect="fadeInRight">
 							<div class="progress-wrap">
-								<h3>jQuery</h3>
+								<h3>Node js</h3>
 								<div class="progress">
 								 	<div class="progress-bar color-2" role="progressbar" aria-valuenow="60"
 								  	aria-valuemin="0" aria-valuemax="100" style={{width:"60%"}}>
-								    <span>60%</span>
+								    <span>70%</span>
 								  	</div>
 								</div>
 							</div>
@@ -55,14 +56,14 @@ class Skills extends Component {
 								<div class="progress">
 								 	<div class="progress-bar color-4" role="progressbar" aria-valuenow="90"
 								  	aria-valuemin="0" aria-valuemax="100" style={{width:"90%"}}>
-								    <span>90%</span>
+								    <span>80%</span>
 								  	</div>
 								</div>
 							</div>
 						</div>
 						<div class="col-md-6 animate-box" data-animate-effect="fadeInLeft">
 							<div class="progress-wrap">
-								<h3>WordPress</h3>
+								<h3>Bootstrap</h3>
 								<div class="progress">
 								 	<div class="progress-bar color-5" role="progressbar" aria-valuenow="70"
 								  	aria-valuemin="0" aria-valuemax="100" style={{width:"70%"}}>
@@ -73,15 +74,61 @@ class Skills extends Component {
 						</div>
 						<div class="col-md-6 animate-box" data-animate-effect="fadeInRight">
 							<div class="progress-wrap">
-								<h3>SEO</h3>
+								<h3>Python</h3>
 								<div class="progress">
 								 	<div class="progress-bar color-6" role="progressbar" aria-valuenow="80"
 								  	aria-valuemin="0" aria-valuemax="100" style={{width:"80%"}}>
-								    <span>80%</span>
+								    <span>50%</span>
 								  	</div>
 								</div>
 							</div>
 						</div>
+						<div class="col-md-6 animate-box" data-animate-effect="fadeInLeft">
+							<div class="progress-wrap">
+								<h3>Android</h3>
+								<div class="progress">
+								 	<div class="progress-bar color-2" role="progressbar" aria-valuenow="75"
+								  	aria-valuemin="0" aria-valuemax="100" style={{width:"75%"}}>
+								    <span>50%</span>
+								  	</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-6 animate-box" data-animate-effect="fadeInRight">
+							<div class="progress-wrap">
+								<h3>Mongo DB</h3>
+								<div class="progress">
+								 	<div class="progress-bar color-1" role="progressbar" aria-valuenow="60"
+								  	aria-valuemin="0" aria-valuemax="100" style={{width:"60%"}}>
+								    <span>70%</span>
+								  	</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-6 animate-box" data-animate-effect="fadeInLeft">
+							<div class="progress-wrap">
+								<h3>Git</h3>
+								<div class="progress">
+								 	<div class="progress-bar color-4" role="progressbar" aria-valuenow="85"
+								  	aria-valuemin="0" aria-valuemax="100" style={{width:"85%"}}>
+								    <span>70%</span>
+								  	</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-6 animate-box" data-animate-effect="fadeInRight">
+							<div class="progress-wrap">
+								<h3>SQL</h3>
+								<div class="progress">
+								 	<div class="progress-bar color-3" role="progressbar" aria-valuenow="90"
+								  	aria-valuemin="0" aria-valuemax="100" style={{width:"90%"}}>
+								    <span>65%</span>
+								  	</div>
+								</div>
+							</div>
+						</div>
+						
+						
 					</div>
 				</div>
 			</section>
@@ -92,3 +139,4 @@ class Skills extends Component {
 }
 
 export default Skills;
+
