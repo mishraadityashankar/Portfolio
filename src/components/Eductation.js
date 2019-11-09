@@ -19,24 +19,24 @@ class Eductation extends Component {
 									<div class="panel panel-default">
 									    <div class="panel-heading" role="tab" id="headingOne">
 									        <h4 class="panel-title">
-									            <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">Master Degree Graphic Design
+									            <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">Btech + Mtech (integrated course)
 									            </a>
 									        </h4>
 									    </div>
 									    <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
 									         <div class="panel-body">
 									            <div class="row">
-										      		<div class="col-md-6">
-										      			<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. </p>
+										      		<div class="col-md-12">
+										      			<p>Completed my two year of engineering in Information Technology from Atal Bihari Vajpayee Indian Institute of Information Technology and Mangement Gwalior, Madhya Pradesh India with a decent <strong>CGPA (Cumulative Grade Point Average) of 8.51 </strong>and currently completing the  third year of the course.</p>
 										      		</div>
-										      		<div class="col-md-6">
+										      		{/* <div class="col-md-6">
 										      			<p>Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
-										      		</div>
+										      		</div> */}
 										      	</div>
 									         </div>
 									    </div>
 									</div>
-									<div class="panel panel-default">
+									{/* <div class="panel panel-default">
 									    <div class="panel-heading" role="tab" id="headingTwo">
 									        <h4 class="panel-title">
 									            <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">Bachelor Degree of Computer Science
@@ -65,18 +65,18 @@ class Eductation extends Component {
 									            <p>Far far away, behind the word <strong>mountains</strong>, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>	
 									        </div>
 									    </div>
-									</div>
+									</div> */}
 
 									<div class="panel panel-default">
 									    <div class="panel-heading" role="tab" id="headingFour">
 									        <h4 class="panel-title">
-									            <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseFour" aria-expanded="false" aria-controls="collapseFour">Diploma in Information Technology
+									            <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseFour" aria-expanded="false" aria-controls="collapseFour">Intemediate or 12th Education
 									            </a>
 									        </h4>
 									    </div>
 									    <div id="collapseFour" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFour">
 									        <div class="panel-body">
-									            <p>Far far away, behind the word <strong>mountains</strong>, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>	
+									            <p>I have done my Intermediate or 12th from DALIMSS School Rohania, Varanasi Uttar with CBSE board (Central Board of Secondary Education) and  <strong>with percentage of 95.4</strong> </p>	
 									        </div>
 									    </div>
 									</div>
@@ -84,13 +84,13 @@ class Eductation extends Component {
 									<div class="panel panel-default">
 									    <div class="panel-heading" role="tab" id="headingFive">
 									        <h4 class="panel-title">
-									            <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseFive" aria-expanded="false" aria-controls="collapseFive">High School Secondary Education
+									            <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseFive" aria-expanded="false" aria-controls="collapseFive">High School or 10th Education
 									            </a>
 									        </h4>
 									    </div>
 									    <div id="collapseFive" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFive">
 									        <div class="panel-body">
-									            <p>Far far away, behind the word <strong>mountains</strong>, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>	
+									            <p>I have done my High school or 10th from DALIMSS School Rohania, Varanasi with CBSE board (Central Board of Secondary Education) and  <strong>with CGPA (Cumulative Grade Point Average) of 10</strong></p>	
 									        </div>
 									    </div>
 									</div>
