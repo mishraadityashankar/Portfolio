@@ -53,6 +53,17 @@ class Experience extends Component {
 					               </div>
 					            </div>
 					         </article>
+							 <article class="timeline-entry animate-box" data-animate-effect="fadeInLeft">
+					            <div class="timeline-entry-inner">
+					               <div class="timeline-icon color-5">
+					                  <i class="icon-pen2"></i>
+					               </div>
+					               <div class="timeline-label">
+					               	<h2><a href="#">Hackathon (Backend Developer)</a> <span>Jan 2019</span></h2>
+									   <p>This application was developed for a hackathon event in Infotsav 2k19  hosted by ABV-IIITM Gwalior. </p>
+					               </div>
+					            </div>
+					         </article>
 
 					         <article class="timeline-entry animate-box" data-animate-effect="fadeInTop">
 					            <div class="timeline-entry-inner">
@@ -66,17 +77,7 @@ class Experience extends Component {
 					            </div>
 					         </article>
 
-					         {/* <article class="timeline-entry animate-box" data-animate-effect="fadeInLeft">
-					            <div class="timeline-entry-inner">
-					               <div class="timeline-icon color-5">
-					                  <i class="icon-pen2"></i>
-					               </div>
-					               <div class="timeline-label">
-					               	<h2><a href="#">UI/UX Designer at Envato</a> <span>2017-2018</span></h2>
-					                  <p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name of Lorem Ipsum decided to leave for the far World of Grammar.</p>
-					               </div>
-					            </div>
-					         </article> */}
+			
 
 					         <article class="timeline-entry begin animate-box" data-animate-effect="fadeInBottom">
 					            <div class="timeline-entry-inner">

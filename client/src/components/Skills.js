@@ -42,7 +42,7 @@ class Skills extends Component {
 						</div>
 						<div class="col-md-6 animate-box" data-animate-effect="fadeInLeft">
 							<div class="progress-wrap">
-								<h3>HTML5</h3>
+								<h3>HTML5 & CSS3</h3>
 								<div class="progress">
 								 	<div class="progress-bar color-3" role="progressbar" aria-valuenow="85"
 								  	aria-valuemin="0" aria-valuemax="100" style={{width:"85%"}}>
@@ -53,7 +53,7 @@ class Skills extends Component {
 						</div>
 						<div class="col-md-6 animate-box" data-animate-effect="fadeInRight">
 							<div class="progress-wrap">
-								<h3>CSS3</h3>
+								<h3>C & C++</h3>
 								<div class="progress">
 								 	<div class="progress-bar color-4" role="progressbar" aria-valuenow="90"
 								  	aria-valuemin="0" aria-valuemax="100" style={{width:"90%"}}>

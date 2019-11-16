@@ -70,13 +70,13 @@ class Eductation extends Component {
 									<div class="panel panel-default">
 									    <div class="panel-heading" role="tab" id="headingFour">
 									        <h4 class="panel-title">
-									            <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseFour" aria-expanded="false" aria-controls="collapseFour">Intemediate or 12th Education
+									            <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseFour" aria-expanded="false" aria-controls="collapseFour">Intermediate or 12th Education
 									            </a>
 									        </h4>
 									    </div>
 									    <div id="collapseFour" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFour">
 									        <div class="panel-body">
-									            <p>I have done my Intermediate or 12th from DALIMSS School Rohania, Varanasi Uttar with CBSE board (Central Board of Secondary Education) and  <strong>with percentage of 95.4</strong> </p>	
+									            <p>I have done my Intermediate or 12th from DALIMSS School Rohania, Varanasi Uttar Pradesh India  with CBSE board (Central Board of Secondary Education) and  <strong>with percentage of 95.4</strong> </p>	
 									        </div>
 									    </div>
 									</div>
