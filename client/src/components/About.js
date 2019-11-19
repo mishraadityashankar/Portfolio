@@ -44,50 +44,19 @@ class About extends Component {
 									</div>
 								</div>
 							</div>
-							{/* <div class="row">
-								<div class="col-md-12 animate-box" data-animate-effect="fadeInLeft">
-									<div class="hire" style={{backgroundColor:"LightGrey"}}>
-										<h2 style={{textAlign:"center"}}>Developer  ||  Musician</h2>
+							<div class="row">
+								<div class="col-md-12 animate-box " data-animate-effect="fadeInLeft">
+									<div class="hire" >
+										<h2 style={{textAlign:"center"}}><br/>  Developer  || Coder || Musician <br/></h2>
 										{/* <a href="#" class="btn-hire">Hire me</a> */}
-									{/* </div>
+									 </div>
 								</div>
-							</div>  */}
+							</div> 
 						</div>
 					</div>
 				</div>
 			</section>
-			<div id="colorlib-counter" class="colorlib-counters" style={{backgroundImage: "url(images/img_bg_1.jpg)"}} data-stellar-background-ratio="1">
-				<div class="overlay"></div>
-				<div class="colorlib-narrow-content">
-					<div class="row">
-					</div>
-					<div class="row">
-						{/* <div class="col-md-3 text-center animate-box">
-							<span class="colorlib-counter js-counter" data-from="0" data-to="309" data-speed="5000" data-refresh-interval="50"></span>
-							<span class="colorlib-counter-label">Cups of coffee</span>
-						</div>
-						<div class="col-md-3 text-center animate-box">
-							<span class="colorlib-counter js-counter" data-from="0" data-to="356" data-speed="5000" data-refresh-interval="50"></span>
-							<span class="colorlib-counter-label">Projects</span>
-						</div>
-						<div class="col-md-3 text-center animate-box">
-							<span class="colorlib-counter js-counter" data-from="0" data-to="30" data-speed="5000" data-refresh-interval="50"></span>
-							<span class="colorlib-counter-label">Clients</span>
-						</div>
-						<div class="col-md-3 text-center animate-box">
-							<span class="colorlib-counter js-counter" data-from="0" data-to="10" data-speed="5000" data-refresh-interval="50"></span>
-							<span class="colorlib-counter-label">Partners</span>
-						</div> */}
-						<div class="col-md-12 animate-box" data-animate-effect="fadeInLeft">
-									<div class="desc">
-										<h1 style={{textAlign:"center",color:"white"}}>Developer || Coder  ||  Musician</h1>
-										{/* <a href="#" class="btn-hire">Hire me</a> */}
-									</div>
-								</div>
-					</div>
-				</div>
-			 </div>
-                
+			
             </div>
         );
     }

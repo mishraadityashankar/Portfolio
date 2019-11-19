@@ -16,10 +16,16 @@ router.post('/addmessage',(req,res) =>{
 
      
 
-   
-    message.save().then((message)=>{ res.send(message) 
+   if(mongoose.connection.readyState ==1){
+    message.save().then((message)=>{ res.send("message sent") 
         console.log(message)
-    }).catch(err=>console.log('the error is' +err));
+    }).catch((err)=>{ res.status(500).send("message not sent") 
+    console.log(err)});}
+    else
+    {
+        res.status(400).send("Check your connection") 
+        console.log("Bad connection")
+    }
 
 
 });

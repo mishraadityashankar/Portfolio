@@ -133,6 +133,38 @@ class Skills extends Component {
 					</div>
 				</div>
 			</section>
+			<div id="colorlib-counter" class="colorlib-counters" style={{backgroundImage: "url(images/img_bg_1.jpg)"}} data-stellar-background-ratio="5">
+				<div class="overlay"></div>
+				<div class="colorlib-narrow-content">
+					<div class="row">
+					</div>
+					<div class="row">
+						<div class="col-md-4 text-center animate-box">
+							<span class="colorlib-counter js-counter" data-from="0" data-to="556" data-speed="5000" data-refresh-interval="50"></span>
+							<span class="colorlib-counter-label">Plus days</span>
+						</div>
+						<div class="col-md-4 text-center animate-box">
+							<span class="colorlib-counter js-counter" data-from="0" data-to="10" data-speed="5000" data-refresh-interval="50"></span>
+							<span class="colorlib-counter-label">Plus projects</span>
+						</div>
+						<div class="col-md-4 text-center animate-box">
+							<span class="colorlib-counter js-counter" data-from="0" data-to="15" data-speed="5000" data-refresh-interval="50"></span>
+							<span class="colorlib-counter-label">Plus courses</span>
+						</div>
+						{/* <div class="col-md-3 text-center animate-box">
+							<span class="colorlib-counter js-counter" data-from="0" data-to="10" data-speed="1000" data-refresh-interval="50"></span>
+							<span class="colorlib-counter-label">Partners</span>
+						</div> */}
+						{/* <div class="col-md-12 animate-box" data-animate-effect="fadeInLeft">
+									<div class="desc">
+										<h1 style={{textAlign:"center",color:"white"}}>Developer || Coder  ||  Musician</h1>
+										{/* <a href="#" class="btn-hire">Hire me</a> */}
+									{/* </div>
+								</div> */}
+					</div> 
+				</div>
+			 </div>
+                
 
             </div>
         );

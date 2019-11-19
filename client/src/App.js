@@ -38,6 +38,22 @@ function App() {
 					</ul>
 				</div>
 			</nav>
+			
+
+
+			<div class="colorlib-footer">
+				<p>
+					<small> All rights reserved | This website is made by 
+					 <a href="#" target="_blank"> Aditya Shankar Mishra</a>
+                   </small>
+				</p>
+				<ul>
+					<li><a href="#"><i class="icon-twitter2"></i></a></li>
+					<li><a href="#"><i class="icon-instagram"></i></a></li>
+					<li><a href="#"><i class="icon-linkedin2"></i></a></li>
+				</ul>
+			</div>
+
      </aside>
      <div id="colorlib-main">
        <Home></Home>

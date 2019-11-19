@@ -21,7 +21,8 @@ class Contact extends Component {
           NameError : '',
           EmailError : '',
           SubjectError : '',
-          MessageError: ''
+          MessageError: '',
+          backendmsg:'',
         
         }
     }
@@ -108,7 +109,12 @@ class Contact extends Component {
         
 
       axios.post('/addmessage', newMsg)
-      .then().catch(err=> console.log("nahi hua"));
+      .then(message =>{ alert(message.data)
+      console.log(message)}
+      ).catch(err=> {console.log(err)
+        alert("Something went wrong")
+     
+      });
   
        
   
@@ -123,7 +129,7 @@ class Contact extends Component {
 		MessageError: ''
 	  
       })
-      alert("Message sent");
+      
     }
 
     // window.location.reload();
@@ -239,18 +245,30 @@ class Contact extends Component {
 						</div>
 					</div>
 				</div>
-        
+                
 			</section>
-            <footer style ={{backgroundColor:"grey" ,textAlign :'center'}}>
-                                <a  href="https://www.facebook.com/Ravi-Shankar-Mishra-116830953060493/?notif_id=1570866708800055&notif_t=p2p_friend_migration" target="facebook"><i style={{color:"#C0C0C0"}} className="fa fa-facebook-official" ></i></a>
+              
+{/*             
+            <div  style={{
+                     position: "right",
+                     left: "0",
+                     bottom: "0",
+                     width:"70%",
+                     backgroundColor: "grey",
+                     color: "white",
+                     textAlign: "center"
+                }}>
+                
+                <a  href="https://www.facebook.com/Ravi-Shankar-Mishra-116830953060493/?notif_id=1570866708800055&notif_t=p2p_friend_migration" target="facebook"><i style={{color:"#C0C0C0"}} className="fa fa-facebook-official" ></i></a>
                                 <a href="https://www.instagram.com/ravi_shankar_mishra_8869/" target="instagram"><i class="fa fa-instagram " style={{color:"#C0C0C0"}} ></i></a>
                                 
-                                <a href="mailto:ravishankar_mishra@hotmail.com" target="mail"><i className="fa fa-envelope " style={{color:"#C0C0C0"}}></i></a>
+                                <a href="mailto:ravishankar_mishra@hotmail.com" target="mail"></a>
                                 <a href="https://www.youtube.com/channel/UCaMVlyDF0tg0eELWuBlpEAw" target="youtube"><i className="fa fa-youtube " style={{color:"#C0C0C0"}} ></i></a>
                                  
-                                <p className="w3-medium" style={{color:"#C0C0C0"}}>Developed by <a href="https://www.linkedin.com/in/aditya-shankar-mishra-258aa9179/" target="linkedin" style={{color:"#C0C0C0"}}>Aditya Shankar Mishra</a></p>
+                                <p className="w3-medium" style={{color:"#C0C0C0"}}>Developed by <a href="https://www.linkedin.com/in/aditya-shankar-mishra-258aa9179/" target="linkedin" >Aditya Shankar Mishra</a></p>
+                </div>
+         */}
                                
-                </footer>
             </div>
         );
     }
