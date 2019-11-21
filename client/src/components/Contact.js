@@ -138,99 +138,99 @@ class Contact extends Component {
   }
 
     render() {
-        // let modalId,modalClass;
+        // let modalId,modalclassName;
     
         // if (this.state.Name<1 || this.state.Email<1 || this.state.Subject<1 || this.state.Message<1) {
         //   modalId="";
-        //   modalClass=""
+        //   modalclassName=""
         // } else {
         //   modalId="#Modal2";
-        //   modalClass="modal";
+        //   modalclassName="modal";
         // }
         return (
             <div>
-                <section class="colorlib-contact" data-section="contact">
-				<div class="colorlib-narrow-content">
-					<div class="row" >
-						<div class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
-							<span class="heading-meta">Get in Touch</span>
-							<h2 class="colorlib-heading">Contact</h2>
+                <section className="colorlib-contact" data-section="contact">
+				<div className="colorlib-narrow-content">
+					<div className="row" >
+						<div className="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
+							<span className="heading-meta">Get in Touch</span>
+							<h2 className="colorlib-heading">Contact</h2>
 						</div>
 					</div>
-					<div class="row ">
-						<div class="col-md-5">
-							<div class="colorlib-feature colorlib-feature-sm animate-box" data-animate-effect="fadeInLeft">
-								<div class="colorlib-icon">
-									<i class="icon-globe-outline"></i>
+					<div className="row ">
+						<div className="col-md-5">
+							<div className="colorlib-feature colorlib-feature-sm animate-box" data-animate-effect="fadeInLeft">
+								<div className="colorlib-icon">
+									<i className="icon-globe-outline"></i>
 								</div>
-								<div class="colorlib-text">
+								<div className="colorlib-text">
 									<p><a href="mailto:adityashankarmishra3@gmail.com">adityashankarmishra3@gmail.com</a></p>
 								</div>
 							</div>
 
-							<div class="colorlib-feature colorlib-feature-sm animate-box" data-animate-effect="fadeInLeft">
-								<div class="colorlib-icon">
-									<i class="icon-map"></i>
+							<div className="colorlib-feature colorlib-feature-sm animate-box" data-animate-effect="fadeInLeft">
+								<div className="colorlib-icon">
+									<i className="icon-map"></i>
 								</div>
-								<div class="colorlib-text">
+								<div className="colorlib-text">
 									<p>C 22/74 Kabir Chaura Varanasi.</p>
 								</div>
 							</div>
 
-							<div class="colorlib-feature colorlib-feature-sm animate-box" data-animate-effect="fadeInLeft">
-								<div class="colorlib-icon">
-									<i class="icon-phone"></i>
+							<div className="colorlib-feature colorlib-feature-sm animate-box" data-animate-effect="fadeInLeft">
+								<div className="colorlib-icon">
+									<i className="icon-phone"></i>
 								</div>
-								<div class="colorlib-text">
+								<div className="colorlib-text">
 									<p><a href="tel://">+91 9260970643</a></p>
 								</div>
 							</div>
 						</div>
-						<div class="col-md-7 col-md-push-1" >
-							<div class="row" >
-								<div class="col-md-10 col-md-offset-1 col-md-pull-1 animate-box" data-animate-effect="fadeInRight">
+						<div className="col-md-7 col-md-push-1" >
+							<div className="row" >
+								<div className="col-md-10 col-md-offset-1 col-md-pull-1 animate-box" data-animate-effect="fadeInRight">
 									<form onSubmit={this.onSubmit}>
-										<div class="form-group">
-											<input type="text" class="form-control" placeholder="Name" value={this.state.Name} onChange={this.onChangeName}/>
+										<div className="form-group">
+											<input type="text" className="form-control" placeholder="Name" value={this.state.Name} onChange={this.onChangeName}/>
                                             <div style={{ fontSize: 12, color: "red" }}>
                                                 {this.state.NameError}
                                             </div>
                                         </div>
-										<div class="form-group">
-											<input type="text" class="form-control" placeholder="Email"value={this.state.Email} onChange={this.onChangeEmail}/>
+										<div className="form-group">
+											<input type="text" className="form-control" placeholder="Email"value={this.state.Email} onChange={this.onChangeEmail}/>
                                             <div style={{ fontSize: 12, color: "red" }}>
                                                 {this.state.EmailError}
                                             </div>
                                         </div>
-										<div class="form-group">
-											<input type="text" class="form-control" placeholder="Subject" value={this.state.Subject} onChange={this.onChangeSubject}/>
+										<div className="form-group">
+											<input type="text" className="form-control" placeholder="Subject" value={this.state.Subject} onChange={this.onChangeSubject}/>
                                             <div style={{ fontSize: 12, color: "red" }}>
                                                 {this.state.SubjectError}
                                             </div>
                                         </div>
-										<div class="form-group">
-											<textarea name="" id="message" cols="30" rows="7" class="form-control" placeholder="Message" value={this.state.Message} onChange={this.onChangeMessage}></textarea>
+										<div className="form-group">
+											<textarea name="" id="message" cols="30" rows="7" className="form-control" placeholder="Message" value={this.state.Message} onChange={this.onChangeMessage}></textarea>
                                             <div style={{ fontSize: 12, color: "red" }}>
                                                 {this.state.MessageError}
                                             </div>
                                         </div>
-										<div class="form-group">
-											<input type="submit" class="btn btn-primary " value="Send Message"  />
+										<div className="form-group">
+											<input type="submit" className="btn btn-primary " value="Send Message"  />
 										    
                                         </div>
                                         
-                                    {/* <div className="modal" id="Modal2">
-                                    <div className="modal-dialog">
-                                            <div className="modal-content">
+                                    {/* <div classNameName="modal" id="Modal2">
+                                    <div classNameName="modal-dialog">
+                                            <div classNameName="modal-content">
                                             
                                             
-                                                <div className="modal-body">
-                                                 <h4 className="text-primary text-center">Thankyou for submission :)</h4>
+                                                <div classNameName="modal-body">
+                                                 <h4 classNameName="text-primary text-center">Thankyou for submission :)</h4>
                                                 </div>
                                                 
                                             
-                                                <div className="modal-footer">
-                                                <button type="button" className="btn btn-primary" data-dismiss="modal">Close</button>
+                                                <div classNameName="modal-footer">
+                                                <button type="button" classNameName="btn btn-primary" data-dismiss="modal">Close</button>
                                                 </div>
                                                 
                                             </div>
@@ -259,13 +259,13 @@ class Contact extends Component {
                      textAlign: "center"
                 }}>
                 
-                <a  href="https://www.facebook.com/Ravi-Shankar-Mishra-116830953060493/?notif_id=1570866708800055&notif_t=p2p_friend_migration" target="facebook"><i style={{color:"#C0C0C0"}} className="fa fa-facebook-official" ></i></a>
-                                <a href="https://www.instagram.com/ravi_shankar_mishra_8869/" target="instagram"><i class="fa fa-instagram " style={{color:"#C0C0C0"}} ></i></a>
+                <a  href="https://www.facebook.com/Ravi-Shankar-Mishra-116830953060493/?notif_id=1570866708800055&notif_t=p2p_friend_migration" target="facebook"><i style={{color:"#C0C0C0"}} classNameName="fa fa-facebook-official" ></i></a>
+                                <a href="https://www.instagram.com/ravi_shankar_mishra_8869/" target="instagram"><i className="fa fa-instagram " style={{color:"#C0C0C0"}} ></i></a>
                                 
                                 <a href="mailto:ravishankar_mishra@hotmail.com" target="mail"></a>
-                                <a href="https://www.youtube.com/channel/UCaMVlyDF0tg0eELWuBlpEAw" target="youtube"><i className="fa fa-youtube " style={{color:"#C0C0C0"}} ></i></a>
+                                <a href="https://www.youtube.com/channel/UCaMVlyDF0tg0eELWuBlpEAw" target="youtube"><i classNameName="fa fa-youtube " style={{color:"#C0C0C0"}} ></i></a>
                                  
-                                <p className="w3-medium" style={{color:"#C0C0C0"}}>Developed by <a href="https://www.linkedin.com/in/aditya-shankar-mishra-258aa9179/" target="linkedin" >Aditya Shankar Mishra</a></p>
+                                <p classNameName="w3-medium" style={{color:"#C0C0C0"}}>Developed by <a href="https://www.linkedin.com/in/aditya-shankar-mishra-258aa9179/" target="linkedin" >Aditya Shankar Mishra</a></p>
                 </div>
          */}
                                

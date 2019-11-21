@@ -6,25 +6,30 @@ const mongoose=require('mongoose');
 const path= require('path');
 
 // const db= process.env.MONGOLAB_URI ;
-const db= "mongodb://aditya1:aditya3@ds063240.mlab.com:63240/myportfolio";
+const db= process.env.MONGOLAB_URI ;
 // app.use(express.json());
 // app.use(express.urlencoded({ extended: false }));
 app.use(bodyParser.urlencoded({
     extended: false
  }));
 app.use(bodyParser.json());
+// app.use(express.static(path.join(__dirname, "../client/build")));
+// /*React root*/
+// app.get("*", (req, res) => {
+// res.sendFile(path.join(__dirname + "../client/build/index.html"));
+// });
 
 app.use('/',message_api);
 
 
 
 
-// if(process.env.NODE_ENV === 'production'){
-// app.use(express.static(path.join(__dirname,'client','build')));
-// app.get("*", (req, res) => {
-//   res.sendFile(path.join(__dirname,'client', 'build','index.html'));
-//   });
-// }
+if(process.env.NODE_ENV === 'production'){
+app.use(express.static(path.join(__dirname,'client','build')));
+app.get("*", (req, res) => {
+  res.sendFile(path.join(__dirname,'client', 'build','index.html'));
+  });
+}
 
 
 mongoose.Promise=global.Promise;
@@ -34,6 +39,7 @@ mongoose.connect(db, { useNewUrlParser: true },function(err){
   }
 });
  
-app.listen(3050, () => {
-    console.log('Running on port 3050');
-})
+const port = process.env.PORT || 3050 ;
+app.listen(port, () => {
+    console.log(`Running on port ${port}`);
+  });
