@@ -19,9 +19,9 @@ function App() {
 		<a href="#" className="js-colorlib-nav-toggle colorlib-nav-toggle" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar"><i></i></a>
 		<aside id="colorlib-aside" role="complementary" className="border js-fullheight">
 			<div className="text-center">
-				<div className="author-img" style={{ backgroundImage: " url(images/about.jpg)"}}></div>
+				<div className="author-img" style={{ backgroundImage: " url(images/about1.jpg)"}}></div>
 				<h2 id="colorlib-logo"><a href="index.html">Aditya Shankar Mishra</a></h2>
-				<span className="position"><a style ={{color:"black"}}href="#">Full Stack Developer</a></span>
+				<span className="position"><a style ={{color:"black"}}href="#">Software Developer</a></span>
 			</div>
 			<nav id="colorlib-main-menu" role="navigation" className="navbar">
 				<div id="navbar" className="collapse">
@@ -43,7 +43,8 @@ function App() {
 
 			<div className="colorlib-footer">
 				<p>
-					<small> All rights reserved | This website is made by 
+					<small> This website is made by 
+					  <br></br>
 					 <a href="https://imaditya.herokuapp.com/" target="_blank"> Aditya Shankar Mishra</a>
                    </small>
 				</p>

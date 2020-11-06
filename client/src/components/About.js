@@ -13,8 +13,8 @@ class About extends Component {
 									<div className="about-desc">
 										<span className="heading-meta">About Us</span>
 										<h2 className="colorlib-heading">Who Am I?</h2>
-										<p><strong>Hi I'm Aditya.</strong> I am a full stack developer from Varanasi who loves learning new things. Currently I am pursuing my engineering in Information Technology (IT) from ABV -IIITM Gwalior ,I am developing since my second year of college and have a decent amount of experience. I am looking for new opportunities and challenges </p>
-										 <p>Apart from being a developer ,I am also a guitarist, percussionist and a singer and have a great passion in it. </p>
+										<p><strong>Hi I'm Aditya.</strong> I am a full stack developer from Varanasi with a demonstrated history of working in the Information Technology industry. Skilled in Website Development (MERN-Stack), Android Development, dotNET Framework and a passionate musician. 
+										Currently pursuing engineering in Information Technology (IT) from IIIT Gwalior. Looking for new opportunities and challenges.</p>
 									</div>
 								</div>
 							</div>

@@ -27,7 +27,7 @@ class Eductation extends Component {
 									         <div className="panel-body">
 									            <div className="row">
 										      		<div className="col-md-12">
-										      			<p>Completed my two year of engineering in Information Technology from Atal Bihari Vajpayee Indian Institute of Information Technology and Mangement Gwalior, Madhya Pradesh India with a decent <strong>CGPA (Cumulative Grade Point Average) of 8.51 </strong>and currently completing the  third year of the course.</p>
+										      			<p>I am a prefinal year student at IIIT-Gwalior, India. Currently pursuing an Integrated Course (Btech+Mtech) in Information Technology with a <strong>CGPA (Cumulative Grade Point Average) of 8.59 </strong>(in Top 10 percent)</p>
 										      		</div>
 										      		{/* <div className="col-md-6">
 										      			<p>Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>

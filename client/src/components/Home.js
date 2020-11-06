@@ -34,12 +34,14 @@ class Home extends Component {
 					   					<div className="desc">
 										   <h1 style={{color:"rgb(245, 237, 237)"}}>I  am a <br/> Developer<br/></h1>
 						   					{/* <h2>100% html5 bootstrap templates Made by <a href="https://colorlib.com/" target="_blank">colorlib.com</a></h2> */}
-												<p><a className="btn btn btn-primary btn-learn" href="https://drive.google.com/uc?export=download&id=1n1b75dx9dcmWNMy-etfCciOSKe7OMr3Q" download>Download CV <i className="icon-download4"></i></a></p>
+												<p><a className="btn btn btn-primary btn-learn" href="https://drive.google.com/uc?export=download&id=1KBFznfwB0MwU6-ACb5yh5ujC2oi7SEYN" download>Download CV <i className="icon-download4"></i></a></p>
 											</div>
 					   				</div>
 					   			</div>
 					   		</div>
 				   		</div>
+						   {/* https://drive.google.com/file/d/1KBFznfwB0MwU6-ACb5yh5ujC2oi7SEYN/view?usp=sharing
+						   https://drive.google.com/uc?export=download&id=YourFile'sID */}
 				   	</li>
 				  	</ul>
 			  	</div>
