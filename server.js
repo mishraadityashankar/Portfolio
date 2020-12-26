@@ -5,8 +5,8 @@ const bodyParser=require('body-parser');
 const mongoose=require('mongoose');
 const path= require('path');
 
-// const db= process.env.MONGOLAB_URI ;
-const db= "mongodb+srv://aditya:Sriganesh@3@cluster0.qqmtq.mongodb.net/Portfolio?retryWrites=true&w=majority";
+const db= process.env.MONGOLAB_URI ;
+// const db= "mongodb+srv://aditya:Sriganesh@3@cluster0.qqmtq.mongodb.net/Portfolio?retryWrites=true&w=majority";
 
 
 // app.use(express.json());
